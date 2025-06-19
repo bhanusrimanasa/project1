@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Chaotic Mind Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#buttons">Explore</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero / Intro -->
+  <header class="hero" id="intro">
+    <div class="hero-text">
+      <h1>My Chaotic Mind</h1>
+      <p>Explore the turbulence, angst, and spark of meaning within.</p>
+      <a class="cta" href="#buttons">Dive In</a>
+    </div>
+  </header>
+
+  <!-- Interactive Buttons Section -->
+  <section class="interactive" id="buttons">
+    <h2>Click to Unveil a Thought</h2>
+    <div class="buttons">
+      <button onclick="showMessage(1)">🧠 Chaos & Creativity</button>
+      <button onclick="showMessage(2)">🌌 Dread & Meaning</button>
+      <button onclick="showMessage(3)">🕳 Inner Isolation</button>
+    </div>
+    <div id="msg" class="message"></div>
+  </section>
+  <section class="about" id="about">
+    <h2>Why This Video/Page?</h2>
+    <p>
+      In this small project, I combined HTML, CSS, and JavaScript to create a seamless one-page experience:
+      the navigation uses smooth scroll, buttons reveal personalized messages, and styles adapt across devices.
+      It reflects how our minds move—from certainty to chaos, from dread to meaning, from isolation to connection.
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 – My Chaotic Mind Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
